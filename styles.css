@@ -18,8 +18,7 @@ body {
 }
 
 .flower-container {
-    position: relative;
-    transform: translateY(-50px); /* Move the flower higher */
+    position: relative; /* No translation applied */
 }
 
 .flower {
