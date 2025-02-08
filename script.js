@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // show container after flower animation
     setTimeout(() => {
         // Zoom the flower before hiding
-        flowerContainer.style.transition = 'transform 0.5s ease-in-out'; // Smooth transition
         flowerContainer.style.transform = 'scale(0.1)'; // Scale down to very small
         flowerContainer.style.opacity = '0'; // Fade out
 

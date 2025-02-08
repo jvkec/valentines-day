@@ -19,6 +19,7 @@ body {
 
 .flower-container {
     position: relative;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Smooth transition for both transform and opacity */
 }
 
 .flower {
