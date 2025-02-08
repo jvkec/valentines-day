@@ -9,16 +9,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // show container after flower animation
     setTimeout(() => {
-        flowerContainer.style.transform = 'translate(-50%, -200%) scale(0.5)';
-        flowerContainer.style.transition = 'all 1s ease-in-out';
-        container.style.display = 'block';
-        container.classList.add('animate__animated', 'animate__fadeIn');
+        // Zoom the flower before hiding
+        flowerContainer.style.transition = 'transform 0.5s ease-in-out'; // Smooth transition
+        flowerContainer.style.transform = 'scale(0.1)'; // Scale down to very small
+        flowerContainer.style.opacity = '0'; // Fade out
 
-        // Hide the flower container after the animation
+        // Show the question container after the flower disappears
         setTimeout(() => {
-            flowerContainer.style.display = 'none';
-        }, 1000);
-    }, 2500);
+            container.style.display = 'block'; // Show the question container
+            container.classList.add('animate__animated', 'animate__fadeIn');
+        }, 500); // Wait for the flower animation to complete
+    }, 2500); // Time before starting the flower animation
 
     // no button movement
     noButton.addEventListener('mouseover', () => {
