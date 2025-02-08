@@ -125,4 +125,14 @@ button:hover {
 
 button:active {
     transform: scale(0.95); /* Slightly shrink on click */
+}
+
+.tenor-gif-embed {
+    max-width: 300px; /* Set a maximum width for the GIF */
+    margin: 0 auto; /* Center the GIF */
+}
+
+.tenor-gif-embed img {
+    width: 100%; /* Make the GIF responsive */
+    height: auto; /* Maintain aspect ratio */
 } 
