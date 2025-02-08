@@ -18,7 +18,7 @@ body {
 }
 
 .flower-container {
-    position: relative; /* No translation applied */
+    position: relative;
 }
 
 .flower {
@@ -73,6 +73,15 @@ body {
     height: 20px;
     background-color: #4caf50; /* Green grass */
     bottom: 0;
+}
+
+.container {
+    display: none; /* Initially hidden */
+    background-color: white; /* White background for the question */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 /* Animation */
