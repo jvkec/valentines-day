@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const noButton = document.getElementById('noButton');
     const yesButton = document.getElementById('yesButton');
-    const flowerContainer = document.querySelector('.flower-container');
+    const flowerContainer = document.querySelector('.flowers');
     const container = document.querySelector('.container');
 
     // initially hidiing the container
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     yesButton.addEventListener('click', () => {
         container.innerHTML = `
             <h1 class="animate__animated animate__heartBeat">Yay! I love you! ❤️</h1>
-            <img src="https://i.imgur.com/8ZUkFWd.png" alt="Hello Kitty" class="hello-kitty animate__animated animate__bounce">
+            <img src="hello-kitty.png" alt="Hello Kitty" class="hello-kitty animate__animated animate__bounce">
         `;
     });
 }); 
