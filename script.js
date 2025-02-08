@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // yes button click
     yesButton.addEventListener('click', () => {
         container.innerHTML = `
-            <h1 class="animate__animated animate__heartBeat">Yay! I love you! ❤️</h1>
+            <h1 class="animate__animated animate__heartBeat">thank you :) (even if u tried to press no + ill get you real flowers) ❤️</h1>
             <img src="hello-kitty.png" alt="Hello Kitty" class="hello-kitty animate__animated animate__bounce">
         `;
     });
