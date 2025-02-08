@@ -37,7 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
     yesButton.addEventListener('click', () => {
         container.innerHTML = `
             <h1 class="animate__animated animate__heartBeat">thank you :) (even if u tried to press no + ill get you real flowers) ❤️</h1>
-            <img src="hello-kitty.png" alt="Hello Kitty" class="hello-kitty animate__animated animate__bounce">
+            <div class="tenor-gif-embed" data-postid="8592107" data-share-method="host" data-aspect-ratio="1.08036" data-width="100%">
+                <a href="https://tenor.com/view/hello-kitty-closer-dear-daniel-love-lean-gif-8592107">Hello Kitty Closer GIF</a> from <a href="https://tenor.com/search/hello+kitty-gifs">Hello Kitty GIFs</a>
+            </div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
         `;
     });
 }); 
