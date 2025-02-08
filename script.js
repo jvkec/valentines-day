@@ -13,6 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
         flowerContainer.style.transition = 'all 1s ease-in-out';
         container.style.display = 'block';
         container.classList.add('animate__animated', 'animate__fadeIn');
+
+        // Hide the flower container after the animation
+        setTimeout(() => {
+            flowerContainer.style.display = 'none';
+        }, 1000);
     }, 2500);
 
     // no button movement

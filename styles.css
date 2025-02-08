@@ -96,4 +96,32 @@ body {
 
 .hidden {
     display: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add some space above the buttons */
+}
+
+button {
+    background-color: #ff69b4; /* Pink background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    margin: 0 10px; /* Space between buttons */
+}
+
+button:hover {
+    background-color: #ff85c0; /* Lighter pink on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+button:active {
+    transform: scale(0.95); /* Slightly shrink on click */
 } 
