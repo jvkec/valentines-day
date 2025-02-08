@@ -1,0 +1,33 @@
+body {
+    background-color: #ffcccb; /* Baby pink */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4; /* Hot pink */
+    font-size: 3em;
+}
+
+button {
+    background-color: #ffb6c1; /* Light pink */
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+} 
