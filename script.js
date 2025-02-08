@@ -42,5 +42,11 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
         `;
+        
+        // Re-insert the Tenor embed script to ensure the GIF loads
+        const script = document.createElement('script');
+        script.src = "https://tenor.com/embed.js";
+        script.async = true;
+        document.body.appendChild(script);
     });
 }); 
