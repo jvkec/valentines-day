@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const noButton = document.getElementById('noButton');
     const yesButton = document.getElementById('yesButton');
-    const flowerContainer = document.querySelector('.flowers');
+    const flowerContainer = document.querySelector('.flower-container');
     const container = document.querySelector('.container');
 
     // initially hidiing the container
